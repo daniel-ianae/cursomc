@@ -24,7 +24,6 @@ public class CategoriaResource {
 	public ResponseEntity<?> retrieve(@PathVariable Integer id) {
 		
 		Categoria cat1 = categoriaService.buscar(id);
-
 		return ResponseEntity.ok().body(cat1);
 		
 	}
