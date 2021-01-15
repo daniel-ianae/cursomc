@@ -11,4 +11,5 @@ public interface EmailService {
 	
 	void sendEmail(SimpleMailMessage msg);
 
+	void sendNewPasswordEmail(Cliente cliente, String newPass);
 }
